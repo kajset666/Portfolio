@@ -87,7 +87,7 @@ body {
     font-family: sans-serif;
     line-height: 1.5rem;
     color: #444;
-    background-color: rgb(174, 174, 174);
+    background-color: rgb(225, 219, 215);
 }
 
 p, td, th, li, dd {
@@ -155,7 +155,7 @@ div.nav ul li:last-child {
 }
 
 div.nav ul li:first-child:hover {
-    background-color: rgb(68, 81, 68);
+    background-color: rgb(215, 214, 209);
 }
 
 div.nav ul li:first-child:hover a {
