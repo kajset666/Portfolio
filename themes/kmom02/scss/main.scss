@@ -1,0 +1,27 @@
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 64em;
+    margin: 2em auto;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.header .footer {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 1164px) {
+    .main {
+        width: 100%;
+    }
+}

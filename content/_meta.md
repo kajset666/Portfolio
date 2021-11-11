@@ -4,9 +4,9 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/kajset666/Portfolio
-      icon: github
+      icon: fab fa-github
 
     - title: Dbwebb taggar på instagram.
       url: https://www.instagram.com/explore/tags/dbwebb/
-      icon: instagram
+      icon: fab fa-instagram
 ---
