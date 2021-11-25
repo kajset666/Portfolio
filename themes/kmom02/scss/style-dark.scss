@@ -1,8 +1,5 @@
-/*Normalize */
-@import '../../node_modules/normalize.css/normalize';
-
 /*Variables*/
-@import 'variables';
+@import 'variables-dark';
 
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
@@ -24,5 +21,9 @@ $fa-font-path: '../../shared/local-fonts';
 @import 'code';
 @import 'technologies';
 @import 'technology';
-@import 'analysis';
-@import 'analys';
+
+.main img {
+    filter: grayscale(35%);
+}
+
+

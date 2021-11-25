@@ -16,9 +16,22 @@ body {
     }
 }
 
+a {
+    text-decoration: none;
+}
+
 .header .footer {
     flex: 0 0 auto;
 }
+
+.nav a {
+    color: $font-color;
+}
+
+.main code {
+    background: $code-background;
+    border: 1px solid $code-border;
+} 
 
 @media (max-width: 1164px) {
     .main {
