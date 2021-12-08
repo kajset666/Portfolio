@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-evenly;
+    border-top: 1px solid #222;
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    margin-top: auto;
+
+    .social {
+        font-size: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+

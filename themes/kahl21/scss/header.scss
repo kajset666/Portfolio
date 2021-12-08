@@ -1,0 +1,67 @@
+.header .site-header {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    flex: 0 0 auto;
+}
+
+.title {
+    .logo {
+        padding: 3em 3em 3em 0;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav a {
+    color: $font-color;
+}
+
+li {
+    justify-items: center;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+@media (max-width: 767px) {
+    .title {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        display: none !important;
+    }
+}
+
+@media (min-width: 767px) {
+    nav,
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* från css filen */
+// @media (max-width: 767px) {
+//     .title, .logo {
+//         padding: 1em 1em 1em 0;
+//     }
+//     .title {
+//         min-width: 50%;
+//     }
+//     .logo {
+//         max-width: 30%;
+//     }
+// }

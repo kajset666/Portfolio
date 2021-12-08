@@ -12,3 +12,5 @@ Jag har använt mig av mallen som vi byggde i övingarna för detta moment och f
 Jag har städad upp koden lite med hjälp av nesting. 
 
 Jag har lagt till ett eget lokalt typsnitt för alla titlar och även stylat min bild lite roligare. Har även lagt lite tid åt att göra sidan responsiv. 
+
+![Leaf](image/header.jpg?width=50%)

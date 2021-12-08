@@ -1,0 +1,29 @@
+.analysis-container {
+    display: grid;
+    gap: 3em 1em;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.analysis-container h1,
+.analysis-container p {
+    grid-column: span 3;
+    justify-self: center;
+} 
+
+.analys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+@media (max-width: 750px) {
+    .analysis-container h1,
+    .analysis-container p {
+        grid-column: span 1;
+        justify-self: center;
+    } 
+}

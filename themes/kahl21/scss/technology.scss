@@ -1,0 +1,33 @@
+.technology-article {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.sidebar {
+    h2 {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+} 
+
+.article h1 {
+    text-align: center;
+}
+@media (max-width: 750px) {
+    .technology-article {
+        grid-template-columns: 100%;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+}

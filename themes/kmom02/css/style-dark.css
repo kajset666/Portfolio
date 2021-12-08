@@ -6169,11 +6169,11 @@ body {
 }
 
 .main {
-  flex: 1 0 auto;
+  flex: 0 1 auto;
   width: 64em;
   margin: 2em auto;
 }
-.main img {
+.main .me img {
   border-radius: 50%;
 }
 
@@ -6182,7 +6182,11 @@ a {
 }
 
 .header .footer {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
+}
+
+.header .site-header {
+  justify-content: space-evenly;
 }
 
 .nav a {
@@ -6199,6 +6203,10 @@ a {
     width: 100%;
   }
 }
+img, embed, object, video {
+  max-width: 100%;
+}
+
 .header .site-header {
   display: flex;
   justify-content: space-between;

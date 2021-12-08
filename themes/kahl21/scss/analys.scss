@@ -1,0 +1,21 @@
+.analysis-article {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.sidebar {
+    h2 {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+} 
+

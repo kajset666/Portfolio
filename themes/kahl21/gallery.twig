@@ -1,0 +1,49 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main gallery-container" role="main">
+        {{ content }}
+        <div class="gallery">
+            <div class="gallery-item medium"><picture>
+                <source media="(min-width: 1075px)" srcset="image/benyamin-bohlouli-unsplash.jpg?h=420&w=200&crop-to-fit">
+                <source media="(min-width: 770px)" srcset="image/benyamin-bohlouli-unsplash.jpg?h=220&w=100&crop-to-fit">
+                <a href="{{ base_url }}/image/benyamin-bohlouli-unsplash.jpg"><img src="image/benyamin-bohlouli-unsplash.jpg?h=620&w=300&crop-to-fit" alt="clay on skin"></a>
+            </picture></div>
+            <div class="gallery-item big"><picture>
+                <source media="(min-width: 1075px)" srcset="image/pavel-nekoranec-I__QKQLMIKs-unsplash.jpg?h=420&w=420&crop-to-fit">
+                <source media="(min-width: 770px)" srcset="image/pavel-nekoranec-I__QKQLMIKs-unsplash.jpg?h=220&w=220&crop-to-fit">
+                <a href="{{ base_url }}/image/pavel-nekoranec-I__QKQLMIKs-unsplash.jpg"><img src="image/pavel-nekoranec-I__QKQLMIKs-unsplash.jpg?h=620&w=620&crop-to-fit" alt="Statues"></a>
+            </picture></div>
+            <div class="gallery-item wide"><picture>
+                <source media="(min-width: 1075px)" srcset="image/niv-singer-LkD_IH8_K8k-unsplash.jpg?h=200&w=420&crop-to-fit">
+                <source media="(min-width: 770px)" srcset="image/niv-singer-LkD_IH8_K8k-unsplash.jpg?h=100&w=220&crop-to-fit">
+                <a href="{{ base_url }}/image/niv-singer-LkD_IH8_K8k-unsplash.jpg"><img src="image/niv-singer-LkD_IH8_K8k-unsplash.jpg?h=300&w=620&crop-to-fit" alt="Banksy text on wall"></a>
+            </picture></div>
+            <div class="gallery-item medium"><picture>
+                <source media="(min-width: 1075px)" srcset="image/motoki-tonn-4In0RilaHSM-unsplash.jpg?h=420&w=200&crop-to-fit">
+                <source media="(min-width: 770px)" srcset="image/motoki-tonn-4In0RilaHSM-unsplash.jpg?h=220&w=100&crop-to-fit">
+                <a href="{{ base_url }}/image/motoki-tonn-4In0RilaHSM-unsplash.jpg"><img src="image/motoki-tonn-4In0RilaHSM-unsplash.jpg?h=620&w=300&crop-to-fit" alt="Flowers"></a>
+            </picture></div>
+            <div class="gallery-item small"><picture>
+                <source media="(min-width: 1075px)" srcset="image/simon-lee-IEgvy4o3byM-unsplash.jpg?h=200&w=200&crop-to-fit">
+                <source media="(min-width: 770px)" srcset="image/simon-lee-IEgvy4o3byM-unsplash.jpg?w=100">
+                <a href="{{ base_url }}/image/simon-lee-IEgvy4o3byM-unsplash.jpg"><img src="image/simon-lee-IEgvy4o3byM-unsplash.jpg?h=300&w=300&crop-to-fit" alt="statue"></a>
+            </picture></div>
+            <div class="gallery-item small"><picture>
+                <source media="(min-width: 1075px)" srcset="image/matheus-viana-sl5o9vDtDbI-unsplash.jpg?h=200&w=200&crop-to-fit">
+                <source media="(min-width: 770px)" srcset="image/matheus-viana-sl5o9vDtDbI-unsplash.jpg?w=100">
+                <a href="{{ base_url }}/image/matheus-viana-sl5o9vDtDbI-unsplash.jpg"><img src="image/matheus-viana-sl5o9vDtDbI-unsplash.jpg?h=300&w=300&crop-to-fit" alt="statue"></a>
+            </picture></div>
+        </div>
+
+        <div class="embed-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tO4Y8vA0zNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
