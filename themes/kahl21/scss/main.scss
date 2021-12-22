@@ -23,18 +23,23 @@ body {
 }
 
 .main {
-    flex: 1 0 auto;
     width: 64em;
     margin: 2em auto;
 
-    .me img {
-        border-radius: 50%;
+    .about {
+        float: left;
+        width: 800px;
     }
 }
 
 @media (max-width: 1164px) {
     .main {
         width: 100%;
+
+        .about {
+            float: none;
+            width: 100%;
+        }
     }
 }
 
@@ -43,4 +48,8 @@ embed,
 object,
 video {
     max-width: 100%;
+}
+
+.main .me img {
+    border-radius: 50%;
 }

@@ -20,6 +20,35 @@
     text-decoration: none;
 }
 
+.article a {
+    color: $font-color;
+    transition: color 0.3s cubic-bezier(0.11, 0.7, 0, 1);
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.article a:hover {
+    color: $font-hover;
+}
+
+.article a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: $font-hover;
+    content: '';
+    transform: scale(0);
+    transition: transform 0.3s cubic-bezier(0.11, 0.7, 0, 1);
+}
+
+.article a:hover::after {
+    transform: scale(1);
+}
+
 @media (max-width: 750px) {
     .analysis-container h1,
     .analysis-container p {
